@@ -1,13 +1,13 @@
 import React from 'react';
-import { A, Flex, H2 } from '../styles/Elements';
+import { A, Flex, H1 } from '../styles/Elements';
 
 const Navbar = () => {
     return (
         <div className='container mt-3'>
             <Flex justify='space-between'>
-                <H2 fontSize='24px' height='36px'>
+                <H1 fontSize='24px' height='36px'>
                     Influencer Gear
-                </H2>
+                </H1>
                 <div>
                     <A>Home</A>
                     <A>Products</A>
